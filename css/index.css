@@ -4,4 +4,38 @@ html, body {
 }
 body{
 	background-image: url("../images/bj.jpg");
+	background-size: 100% 100%;
+}
+.present {
+	width: 20%;
+	height: 50%;
+	position: absolute;
+	border: 1px solid #fff;
+	top: 25%;
+	left: 40%;
+}
+.user-img{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	margin:0 auto;
+	overflow: hidden;
+}
+.user-img img {
+	width: 150px;
+	height: 150px;
+
+}
+.user-name {
+	color: #fff;
+	font-size: .50rem;
+	margin-top: 20px;
+	text-align: center;
+}
+.user-shuoshuo{
+	color: #fff;
+	font-size: .20rem;
+	margin-top: 25px;
+	text-align: center;
 }
